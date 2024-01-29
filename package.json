@@ -1,0 +1,22 @@
+{
+  "name": "large-json",
+  "version": "1.0.0",
+  "description": "If you need a large JSON file for testing purposes and can't find one that suits your needs, you can generate with this code.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yousefgheibi/large-json.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yousefgheibi/large-json/issues"
+  },
+  "homepage": "https://github.com/yousefgheibi/large-json#readme",
+  "dependencies": {
+    "faker": "^5.5.3"
+  }
+}
