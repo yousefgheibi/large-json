@@ -2,13 +2,13 @@ const fs = require('fs');
 const faker = require('faker');
 
 // Adjust the number of records as per your requirement
-const numRecords = 1000000;
+const numRecords = 500000;
 const data = [];
 
 for (let i = 0; i < numRecords; i++) {
     const firstName = faker.name.firstName();
     const lastName = faker.name.lastName();
-    const fullName = firstName + lastName;
+    const fullName = firstName + ' ' + lastName;
     const phone = faker.phone.phoneNumber();
     const email = faker.internet.email();
     const username = faker.internet.userName();
